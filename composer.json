@@ -1,0 +1,23 @@
+{
+    "name": "szonov/ru-date",
+    "description": "Набор полезных функций для работы с русскими датами",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Zonov",
+            "email": "sergey@zonov.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/polyfill-mbstring": "~1.0"
+    },
+    "suggest": {
+        "nesbot/carbon": "Good API for DateTime"
+    },
+    "autoload": {
+        "psr-4": { "SZonov\\Rudate\\": "" },
+        "files": [ "carbon-addon.php" ]
+    }
+}
